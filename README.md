@@ -1,97 +1,118 @@
-🎬 IMDB Movies Rank – Power BI Dashboard
-📌 Project Overview
+# 🎬 IMDB Movies Rank – Data Analysis Dashboard
 
-This project analyzes the Top IMDB Movies dataset to uncover insights about movie rankings, ratings, durations, reviewers, and trends across decades.
-The goal is to transform raw movie data into clear, interactive, and business-ready insights using Power BI.
+## 📌 Project Overview
 
-🎯 Objectives
+This project analyzes the **Top 250 IMDB Movies** to uncover insights about movie trends, ratings, audience engagement, and movie characteristics across different decades.
 
-Analyze IMDB top movies performance
+The goal is to transform raw movie data into **clear, interactive insights** that help users understand how movies perform over time in terms of ratings, duration, popularity, and audience size.
 
-Understand rating distribution and trends over time
+---
 
-Explore relationships between movie duration and number of reviewers
+## 🎯 Project Objectives
 
-Provide an interactive dashboard for easy exploration
+* Analyze IMDB Top 250 movies data
+* Identify trends across decades
+* Understand the relationship between movie duration and audience engagement
+* Compare ratings and popularity across movie categories
+* Build an interactive and user-friendly Power BI dashboard
 
-🛠 Tools & Technologies
+---
 
-Power BI
+## 📊 Key KPIs
 
-Power Query (Data Cleaning & Transformation)
+* **Total Movies:** 250
+* **Total Reviewers:** 185M
+* **Average Movie Duration:** 131.91 minutes
+* **Maximum Rating:** 9.30
+* **Minimum Rating:** 8.00
 
-DAX (Measures & Calculations)
+---
 
-Excel / CSV Dataset
+## 🧠 Dashboard Insights
 
-📊 Dashboard Features
-🔹 Key KPIs
+### 📅 Movies by Decade
 
-Total Movies: 250
+* Significant growth in the number of top-rated movies starting from the **1990s onward**
+* Peak representation during the **2000s and 2010s**
+* Lower representation in earlier decades due to fewer productions and records
 
-Total Reviewers: 185M
+### 👥 Reviewers by Category
 
-Average Duration: 131.91 minutes
+* **R-rated movies** attract the highest number of reviewers
+* PG-13 and PG movies follow, indicating strong audience engagement
+* Very limited engagement for NC-17 and Passed categories
 
-Maximum Rating: 9.30
+### ⏱️ Duration & Popularity Analysis
 
-Minimum Rating: 8.00
+* Average movie duration is around **132 minutes**
+* Longer movies tend to attract **more reviewers**, especially in recent decades
+* The scatter plot shows how audience size varies with movie duration
 
-🔹 Visual Analysis
+### ⭐ Movie Ranking
 
-Movies by Decade
-Shows how movie production evolved from the 1920s to the 2020s.
+* Interactive ranking table displays top IMDB movies
+* Allows users to explore movie positions dynamically
 
-Reviewers by Rating Category
-Highlights which content ratings attract the most audience engagement.
+---
 
-Top Ranked Movies Table
-Displays IMDB ranking with movie names for easy comparison.
+## 🎛️ Dashboard Features
 
-Reviewers vs Average Duration Correlation
-Analyzes the relationship between movie length and audience engagement.
+* KPI cards for quick overview
+* Line chart showing movies by decade
+* Bar chart for reviewers by category
+* Scatter plot for reviewers vs average duration
+* Gauge chart for average movie duration
+* Interactive table for movie ranking
+* Year slicer for dynamic filtering
 
-Average Duration Gauge
-Compares average movie duration against a target benchmark.
+---
 
-🎛 Interactivity
+## 🛠️ Tools & Technologies
 
-Year Slicer to filter movies by decade
+* **Power BI** – Data modeling & visualization
+* **Power Query (M)** – Data cleaning & transformation
+* **DAX** – Measures and KPIs
+* **Excel / CSV** – Data source
 
-Dynamic visuals that respond to user selections
+---
 
-Clean and user-friendly layout for storytelling
+## 📂 Project Structure
 
-📈 Key Insights
-
-Movies released in the 2000s and 2010s dominate the dataset
-
-R-rated movies receive the highest number of reviewers
-
-Longer movies do not always guarantee higher engagement
-
-Top-ranked movies maintain consistently high ratings across decades
-
-📂 Project Structure
-IMDB-Movies-Rank/
-│
-├── Dataset/
-│   └── imdb_movies.csv
-│
-├── Dashboard/
-│   └── IMDB_Movies_Rank.pbix
-│
-├── Images/
-│   └── dashboard_preview.png
-│
+```
+├── data/
+│   └── imdb_movies_dataset.csv
+├── power_bi/
+│   └── IMDB_Movies_Dashboard.pbix
 └── README.md
+```
 
-👤 Author
+---
 
-Mohamed Ashraf
-Data & Business Analyst
-📍 Egypt
+## 🚀 How to Use
 
-🔗 GitHub: https://github.com/MohamedAshraf-crypto
+1. Download or clone the repository
+2. Open the `.pbix` file using Power BI Desktop
+3. Use slicers and filters to explore insights
+4. Analyze trends across decades and categories
 
-🔗 LinkedIn: https://www.linkedin.com/in/mohamed-ashraf-acc
+---
+
+## 📌 Conclusion
+
+This project demonstrates strong skills in:
+
+* Data cleaning and modeling
+* KPI creation using DAX
+* Visual storytelling using Power BI
+* Turning raw data into actionable insights
+
+It is ideal as a **portfolio project for Data Analyst / Business Analyst roles**.
+
+---
+
+## 👤 Author
+
+**Mohamed Ashraf**
+Data & Business Analyst | Accounting & Finance Background
+
+🔗 *Check out my GitHub for more data analysis projects!*
